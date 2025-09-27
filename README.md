@@ -1,4 +1,4 @@
-# Diya Ghosh Portfolio
+# Portfolio
 
 Welcome to the personal portfolio of **Diya Ghosh**, a passionate undergraduate in Information Technology at **IIEST Shibpur**. This portfolio showcases skills, projects, education, and contact details, along with a smooth, modern UI with light/dark theme toggle.
 
