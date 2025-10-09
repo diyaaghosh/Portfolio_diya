@@ -6,7 +6,7 @@ Welcome to the personal portfolio of **Diya Ghosh**, a passionate undergraduate 
 
 ## Live Demo
 
-[View the Portfolio](https://your-live-portfolio-link.com)
+[View the Portfolio](portfolio-diya-pied.vercel.app)
 
 ---
 
