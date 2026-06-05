@@ -1,6 +1,6 @@
 
 var typed = new Typed('#element', {
-    strings: ['Frontend Developer .', 'CP Enthusiastic .',  'Machine Learning Developer .'],
+    strings: ['Frontend Developer .', 'CP Enthusiastic .',  'ML Developer .'],
     typeSpeed: 50,
     loop: true,
 });
