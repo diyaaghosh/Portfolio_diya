@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-icons-font@vv13/font/simple-icons.min.css"> -->
     <link rel="icon" type="image/png" sizes="32x32" href="diya_logo.png">
     <link rel="apple-touch-icon" href="diya_logo.png">
     <link rel="stylesheet" href="styles.css">
@@ -27,21 +28,16 @@
             Download Resume
           </a>
         </li>
-        <li>
-         
-          <button class="theme-toggle" onclick="toggleTheme()">
-            <i class="fas fa-moon"></i>
-          </button>
-        </li>
-        <li>
-      
-          <button class="hamburger-menu" onclick="toggleMenu()">
-            <i class="fas fa-bars"></i>
-          </button>
-        </li>
       </ul>
+      <button class="theme-toggle" onclick="toggleTheme()">
+        <i class="fas fa-moon"></i>
+      </button>
+      <button class="hamburger-menu" onclick="toggleMenu()" aria-label="Toggle menu" aria-expanded="false">
+        <i class="fas fa-bars"></i>
+      </button>
     </div>
   </nav>
+  <div class="nav-overlay" onclick="closeMenu()"></div>
 </header>
 
 
@@ -100,10 +96,7 @@
                     <i class="fas fa-table"></i>
                     <h3>Pandas</h3>
                 </div>
-                <div class="skill-card animation-2 animate-on-scroll">
-                    <i class="fas fa-paint-brush"></i>
-                    <h3>Tailwind CSS</h3>
-                </div>
+           
             </div>
         </section>
 <section id="education" class="education-section ">
@@ -199,38 +192,20 @@ An AI-powered Multi-PDF Educational Assistant using RAG to answer questions from
                     <div id="formMessage" class="form-message"></div>
                 </form>
         
-                <div class="social-links animate-on-scroll">
-                    <h3>Or reach out via:</h3>
-                    <div class="social-icons">
-                        <a href="https://github.com/diyaaghosh" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/diya-ghosh-415307293" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://leetcode.com/u/Myself_Diya/" target="_blank" class="social-icon"><i class="fas fa-code"></i></a>
-                        <a href="mailto:diya1692005ne@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
-                    </div>
-                </div>
+             
                 
-                <!-- <div class="map-container animate-on-scroll">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.8563325568917!2d88.30836277495513!3d22.555663479520634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277403e3f37d7%3A0xa9a58a1281a29a3!2sIIEST%20Shibpur!5e0!3m2!1sen!2sin!4v1707100000000!5m2!1sen!2sin"
-                        width="100%"
-                        height="300"
-                        style="border:0;"
-                        allowfullscreen=""
-                        loading="lazy">
-                    </iframe>
-                </div>
-            </div> -->
-        </section>
+                       </section>
     </main>
 
     <footer>
         <div class="footer-container ">
-            <div class="social-icons ">
-                <a href="https://github.com/diyaaghosh" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/diya-ghosh-415307293" target="_blank"><i class="fab fa-linkedin"></i></a>
-               
-            </div>
-            <p>&copy; 2025 Diya's Portfolio. All rights reserved.</p>
+             <div class="social-icons">
+                        <a href="https://github.com/diyaaghosh" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/diya-ghosh-415307293" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        
+                        <a href="mailto:diya1692005ne@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+                    </div>
+            <p>&copy; 2026 Diya's Portfolio. All rights reserved.</p>
         </div>
     </footer>
     
@@ -238,8 +213,3 @@ An AI-powered Multi-PDF Educational Assistant using RAG to answer questions from
     <script src="app.js"></script>
 </body>
 </html>
-
-
-
-
-
